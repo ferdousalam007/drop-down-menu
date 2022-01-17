@@ -62,7 +62,7 @@ nav ul li a {
     display: block;
 }
 
-nav ul li a:hover {
+nav ul li:hover a {
     color: rgb(163, 163, 163);
 }
 
@@ -70,12 +70,12 @@ nav ul li a:hover {
      Dropdown  Menu css
 --------------------* */
 nav ul ul {
-    flex-direction: column;
-    position: absolute;
-    background: #e1e1e1;
-    left: -999999px;
-    width: 150px;
-    border: 1px solid #cacaca;
+	flex-direction: column;
+	position: absolute;
+	background: #6a0000;
+	left: -999999px;
+	width: 150px;
+	border: 1px solid #cacaca;
 }
 
 nav ul li:hover ul {
@@ -85,9 +85,7 @@ nav ul li:hover ul {
 nav ul li:hover ul ul {
     left: -999999px;
 }
-nav ul ul li a {
-    color: rgb(68, 68, 68);
-}
+
 nav ul ul li:hover {
     background: #D83030;
 }
